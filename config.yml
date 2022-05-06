@@ -90,7 +90,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/alexmoras/moras.dev/content/{{ .File.Path }}"
+    URL: "https://github.com/alexmoras/moras.dev/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -110,9 +110,9 @@ menu:
       name: categories
       url: /categories/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: search
+      name: search
+      url: /search/
       weight: 20
     - identifier: github
       name: github
@@ -127,3 +127,9 @@ menu:
 #         guessSyntax: true
 #         lineNos: true
 #         style: monokai
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
