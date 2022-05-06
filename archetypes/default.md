@@ -5,7 +5,6 @@ date: {{ .Date }}
 
 # aliases: ["/first"]
 tags: [""]
-author: "Alex Moras"
 draft: false
 description: "Desc Text."
 #cover:
