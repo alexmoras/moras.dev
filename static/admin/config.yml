@@ -10,7 +10,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: "Draft", name: "draft", widget: "boolean", required: false, default: true }
       - { label: 'Title', name: 'title', widget: 'string' }
