@@ -1,12 +1,12 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Hello World"
+date: 2022-05-06T14:40:27+01:00
 
 
 # aliases: ["/first"]
 tags: [""]
 author: "Alex Moras"
-draft: false
+draft: true
 description: "Desc Text."
 #cover:
 #    image: "<image path/url>" # image path/url
